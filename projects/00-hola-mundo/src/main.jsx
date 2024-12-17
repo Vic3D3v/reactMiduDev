@@ -1,11 +1,11 @@
 import { StrictMode, Fragment } from 'react'
 import { createRoot } from 'react-dom/client'
+import { App } from './App.jsx'
+import './index.css'
 
 const root = createRoot(document.getElementById('root'));
 
-root.render(
-  <Fragment>
-    <button> Hola button </button>
-    <button> Hola button </button>
-  </Fragment>
- );
+root.render
+  (
+    <App />
+  );
